@@ -1,0 +1,59 @@
+*{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+p{
+    color:red;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-family:"Dancing Script";
+}
+img{
+    height: 100%; width: 30%;
+}
+.todasimagens{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+.trocaimagem1 img{
+    position: absolute;
+    margin-left: -15%;
+}
+.trocaimagem2 img{
+    position: absolute;
+    margin-left: -15%;
+    opacity:0;
+}
+.trocaimagem3 img{
+    opacity: 0;
+    height: 100%;
+    width: 40%;
+}
+.final{
+    width:100% ;
+    background-color: rgba(255, 0, 0, 0.555);
+    
+}
+.final p{
+    padding: 30px 0px;
+    color:white;
+}
+
+
+.trocaimagem1 img:hover{
+    opacity: 0;
+}
+.trocaimagem2 img:hover{
+    opacity: 1;
+}
+.trocaimagem3 img:hover{
+    opacity: 1;
+}

@@ -17,6 +17,7 @@ p{
 }
 img{
     height: 100%; width: 30%;
+    border-radius: 10px;
 }
 .todasimagens{
     position: relative;
